@@ -204,8 +204,8 @@ class RequestApi(object):
 # 输入讯飞开放平台的appid，secret_key和待转写的文件路径
 if __name__ == '__main__':
     api = RequestApi(
-        appid="013b4113",
-        secret_key="22d60ccfed18e84c680d5d7f926cd372",
+        appid="01113b4113",
+        secret_key="22d60ccfed11118e84c680d5d7f926cd372",
         upload_file_path=r"yuyin.m4a",
         to_file=r"wenzi.txt"
     )
